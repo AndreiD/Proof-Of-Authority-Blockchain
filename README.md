@@ -104,6 +104,12 @@ Browse to http://localhost:3000
 
 This docker compose project originally started on https://github.com/orbita-center/parity-poa-playground, after making some pull requests and explaining why they should include some changes, which were never approved, I decided to make my own repo. 
 
+### Thanks
+
+Thanks to [Grzegorz Bytniewski](https://github.com/bytniak) for his suggestions
+
+
+
 ### License
 
     DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
