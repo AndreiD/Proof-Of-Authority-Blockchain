@@ -1,15 +1,18 @@
-# parity-poa-playground
+# Proof of Authority Blockchain 
 
 Setup your first Parity PoA network with 3 authorities and 3 members.
 
+
 ### Why Use This :fire:
 
+- Beginner friendly! (wow, that's rare in blockchain!)
 - Easy way to get started with POA
 - Full Byzantium-fork compatibility & experimental support for WebAssembly
 
 ### Setup
 
-0. Install [docker](https://docs.docker.com/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/)
+You need git, docker, nodejs etc.
+Install [docker](https://docs.docker.com/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/)
 
 Initial Setup Example:
 
@@ -80,8 +83,7 @@ Add JSON-formatted ethereum accounts to `parity/keys`.
 ### Access JSON RPC 
 Talk to JSON RPC at [http://127.0.0.1:8545](http://127.0.0.1:8545) with your favorite client.
 
-Be kind and send the poor an ether!
-
+Example trasfering 1 ether from one account to another:
 ```
 curl --data '{"jsonrpc":"2.0","method":"personal_sendTransaction","params":[{"from":"0x6B0c56d1Ad5144b4d37fa6e27DC9afd5C2435c3B","to":"0x00E3d1Aa965aAfd61217635E5f99f7c1e567978f","value":"0xde0b6b3a7640000"}, ""],"id":0}' -H "Content-Type: application/json" -X POST localhost:8545
 ```
@@ -97,3 +99,23 @@ Rename config.js.example into config.js and adjust the file to your local enviro
 Start the explorer: npm start
 Browse to http://localhost:3000
 ```
+
+### About
+
+This docker compose project originally started on https://github.com/orbita-center/parity-poa-playground, after making some pull requests and explaining why they should include some changes, which were never approved, I decided to make my own repo. 
+
+### License
+
+    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+                    Version 2, December 2004 
+
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+
+ Everyone is permitted to copy and distribute verbatim or modified 
+ copies of this license document, and changing it is allowed as long 
+ as the name is changed. 
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
