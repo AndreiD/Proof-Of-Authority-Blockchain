@@ -8,6 +8,9 @@ Setup your first Parity PoA network with 3 authorities and 3 members.
 - Beginner friendly! (wow, that's rare in blockchain!)
 - Easy way to get started with POA
 - Full Byzantium-fork compatibility & experimental support for WebAssembly
+- A block explorer provided
+- Netstats provided
+- Faucet provided :check:
 
 ### Setup
 
