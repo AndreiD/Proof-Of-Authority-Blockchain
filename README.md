@@ -10,7 +10,7 @@ Setup your first Parity PoA network with 3 authorities and 3 members.
 - Full Byzantium-fork compatibility & experimental support for WebAssembly
 - A block explorer provided
 - Netstats provided
-- Faucet provided :thumbs-up:
+- Faucet provided 
 
 ### Setup
 
