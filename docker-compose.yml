@@ -8,9 +8,10 @@ services:
       --jsonrpc-interface 0.0.0.0
       --ws-interface 0.0.0.0
       --ui-interface 0.0.0.0
-      --unsafe-expose   
+      --unsafe-expose
       --jsonrpc-cors all
       --fat-db on
+      --tracing on
       --unlock "0x00bd138abd70e2f00903268f3db08f2d25677c9e"
     volumes:
       - ./parity/config:/parity/config:ro
@@ -104,7 +105,7 @@ services:
     networks:
       app_net:
         ipv4_address: 172.16.0.100
-      
+
   dashboard:
     image: buythewhale/ethstats
     volumes:
