@@ -1,0 +1,3 @@
+# Ether Faucet
+
+enjoy

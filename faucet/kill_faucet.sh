@@ -1,0 +1,1 @@
+ps -ef | grep 'faucet' | grep -v grep | awk '{print $2}' | xargs -r kill -9

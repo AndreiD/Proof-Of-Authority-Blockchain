@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="https://milligram.github.io/images/icon.png">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+        <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+        <link rel="icon" href="https://milligram.github.io/images/icon.png">
+
+		<main class="wrapper">
+			<nav class="navigation" style="margin-top:39px">
+				<section class="container">
+						<h1 class="title">Pilot Ethereum Faucet</h1>
+				</section>
+			</nav>
+
+			<section class="container" id="examples">
+				<h4>Paste your public address below (ex: 0x00bd138abd70e2f00903268f3db08f2d25677c9e)</h4>
+				<p>
+                   <form action="/" method="POST">
+                  <fieldset>
+                    <label for="public_address">Public Address</label>
+                    <input style="width: 400px" type="text" placeholder="0x123..." name="public_address" id="public_address">
+                    <input class="button-primary" type="submit" value="Give me Ether">
+                  </fieldset>
+                </form>
+				</p>
+
+                <h5>
+                {{ .status }}
+                </h5>
+
+				<br />
+				<br />
+				<h3>How does this work?</h3>
+				<p>This Ether faucet is running on <a target="_blank" href="http://18.185.85.20:3001">MotionWerk POA Pilot Network</a>.</p>
+				<p>You can check your balance here: <a href="http://18.185.85.20:3000" target="_blank">http://18.185.85.20:3000</a>
+			</section>
+
+			<footer class="footer">
+				<section class="container">
+					<p>Designed with ♥ by MotionWerk</p>
+				</section>
+			</footer>
+
+		</main>
+	</body>
+</html>
