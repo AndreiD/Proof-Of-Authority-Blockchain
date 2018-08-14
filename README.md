@@ -95,13 +95,14 @@ curl --data '{"jsonrpc":"2.0","method":"personal_sendTransaction","params":[{"fr
 
 #### Your own blockchain explorer so you can quickly check transaction hashes, accounts etc.
 
-```
-git clone https://github.com/jpoon/etherchain-light
-cd etherchain-light
-nano config.js
-npm install
-npm start
-```
+- Setup a nodejs & npm environment
+- Install the latest version of the Parity Ethereum client
+- Start parity using the following options: parity --chain=<yourchain> --tracing=on --fat-db=on --pruning=archive
+- Clone this repository to your local machine: git clone https://github.com/poanetwork/chain-explorer --recursive (Make sure to include - recursive in order to fetch the solc-bin git submodule)
+- Install all dependencies: npm install
+- Rename config.js.example into config.js and adjust the file to your local environment
+- Start the explorer: npm start
+- Browse to http://server_ip:3000
 
 ### About
 
