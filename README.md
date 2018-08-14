@@ -97,9 +97,9 @@ curl --data '{"jsonrpc":"2.0","method":"personal_sendTransaction","params":[{"fr
 
 ```
 git clone https://github.com/gobitfly/etherchain-light --recursive
-Install all dependencies: npm install
 Rename config.js.example into config.js and adjust the file to your local environment
-Start the explorer: npm start
+docker build -t etherchain-light .
+docker run -p 3000:3000 etherchain-light
 Browse to http://localhost:3000
 ```
 
