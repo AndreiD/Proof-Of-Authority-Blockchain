@@ -96,11 +96,11 @@ curl --data '{"jsonrpc":"2.0","method":"personal_sendTransaction","params":[{"fr
 #### Your own blockchain explorer so you can quickly check transaction hashes, accounts etc.
 
 ```
-git clone https://github.com/gobitfly/etherchain-light --recursive
-Rename config.js.example into config.js and adjust the file to your local environment
-docker build -t etherchain-light .
-docker run -p 3000:3000 etherchain-light
-Browse to http://localhost:3000
+git clone https://github.com/jpoon/etherchain-light
+cd etherchain-light
+nano config.js
+npm install
+npm start
 ```
 
 ### About
