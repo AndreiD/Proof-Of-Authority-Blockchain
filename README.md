@@ -49,7 +49,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.13.0/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ~~~~
 
-1. Run `git clone https://github.com/orbita-center/parity-poa-playground.git && cd parity-poa-playground`
+1. Run `git clone git@github.com:AndreiD/Proof-Of-Authority-Blockchain.git && cd proof-of-authority-blockchain`
 2. Run `docker-compose up -d`
 
 #### Quick docker-compose commands cheatsheet:
