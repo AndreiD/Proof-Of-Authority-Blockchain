@@ -1,5 +1,7 @@
 # Proof of Authority Blockchain 
 
+### This is *AURA* Parity Version. 
+
 Setup your first Parity PoA network with 3 authorities and 3 members.
 
 
